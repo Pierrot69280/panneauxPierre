@@ -14,6 +14,9 @@ html, body {
     background-size: cover;
     background-position: center;
     flex: 1;
+}
+
+.panneau{
 
 }
 
@@ -26,7 +29,7 @@ html, body {
 
 .panneau:hover {
     flex: 5;
-    transition: 1s;
+    transition: 3s
 }
 
 .image1 {
@@ -49,14 +52,19 @@ html, body {
     background-image: url("images/5.png");
 }
 
-.Hello {
+.hello {
+    color: red;
     font-size: 40px;
     background-color: black;
     opacity: 50%;
-    color: purple;
 
 }
 
+.panneau:hover .hello {
+    transform: translateY(10cm); /* Vous pouvez ajuster la valeur selon votre préférence */
+    transition: transform 5s ease; /* Ajoutez une transition pour une animation fluide */
+}
+;
 
 
 
