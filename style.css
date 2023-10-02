@@ -1,0 +1,63 @@
+html, body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.panneau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+
+}
+
+
+.panneaux {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.panneau:hover {
+    flex: 5;
+    transition: 1s;
+}
+
+.image1 {
+    background-image: url("images/1.png");
+}
+
+.image2 {
+    background-image: url("images/2.png");
+}
+
+.image3 {
+    background-image: url("images/3.png");
+}
+
+.image4 {
+    background-image: url("images/4.png");
+}
+
+.image5 {
+    background-image: url("images/5.png");
+}
+
+.Hello {
+    font-size: 40px;
+    background-color: black;
+    opacity: 50%;
+    color: purple;
+
+}
+
+
+
+
+
